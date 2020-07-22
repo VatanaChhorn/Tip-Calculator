@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8982B59E24C802A9002E0E03 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8982B59D24C802A9002E0E03 /* IQKeyboardManagerSwift */; };
 		89ABB63E24C7091500B727AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ABB63D24C7091500B727AE /* AppDelegate.swift */; };
 		89ABB64024C7091500B727AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ABB63F24C7091500B727AE /* SceneDelegate.swift */; };
-		89ABB64224C7091500B727AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ABB64124C7091500B727AE /* ContentView.swift */; };
+		89ABB64224C7091500B727AE /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ABB64124C7091500B727AE /* FirstScreen.swift */; };
 		89ABB64424C7091900B727AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89ABB64324C7091900B727AE /* Assets.xcassets */; };
 		89ABB64724C7091900B727AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89ABB64624C7091900B727AE /* Preview Assets.xcassets */; };
 		89ABB64A24C7091900B727AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89ABB64824C7091900B727AE /* LaunchScreen.storyboard */; };
@@ -19,7 +20,7 @@
 		89ABB63A24C7091500B727AE /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89ABB63D24C7091500B727AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89ABB63F24C7091500B727AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		89ABB64124C7091500B727AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89ABB64124C7091500B727AE /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		89ABB64324C7091900B727AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89ABB64624C7091900B727AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89ABB64924C7091900B727AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,12 +32,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8982B59E24C802A9002E0E03 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8982B59824C7D5E5002E0E03 /* View and controller */ = {
+			isa = PBXGroup;
+			children = (
+				89ABB64124C7091500B727AE /* FirstScreen.swift */,
+			);
+			path = "View and controller";
+			sourceTree = "<group>";
+		};
 		89ABB63124C7091500B727AE = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +68,7 @@
 			children = (
 				89ABB63D24C7091500B727AE /* AppDelegate.swift */,
 				89ABB63F24C7091500B727AE /* SceneDelegate.swift */,
-				89ABB64124C7091500B727AE /* ContentView.swift */,
+				8982B59824C7D5E5002E0E03 /* View and controller */,
 				89ABB64324C7091900B727AE /* Assets.xcassets */,
 				89ABB64824C7091900B727AE /* LaunchScreen.storyboard */,
 				89ABB64B24C7091900B727AE /* Info.plist */,
@@ -91,6 +101,9 @@
 			dependencies = (
 			);
 			name = "Tip Calculator";
+			packageProductDependencies = (
+				8982B59D24C802A9002E0E03 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Tip Calculator";
 			productReference = 89ABB63A24C7091500B727AE /* Tip Calculator.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +132,9 @@
 				Base,
 			);
 			mainGroup = 89ABB63124C7091500B727AE;
+			packageReferences = (
+				8982B59C24C802A9002E0E03 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 89ABB63B24C7091500B727AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -148,7 +164,7 @@
 			files = (
 				89ABB63E24C7091500B727AE /* AppDelegate.swift in Sources */,
 				89ABB64024C7091500B727AE /* SceneDelegate.swift in Sources */,
-				89ABB64224C7091500B727AE /* ContentView.swift in Sources */,
+				89ABB64224C7091500B727AE /* FirstScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +358,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8982B59C24C802A9002E0E03 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8982B59D24C802A9002E0E03 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8982B59C24C802A9002E0E03 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 89ABB63224C7091500B727AE /* Project object */;
 }
