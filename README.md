@@ -15,6 +15,11 @@ A tip calculator app which is fully capable of helping you to save your time, an
 - No ads 
 - keep updating and free bug fixing. 
 
+### Language and Pods 
+
+- This app is one hundred percent written in Swift ( SwiftUI ) 
+- Using IQKeyboardManagerSwift as an extension pod to allow the user to dismiss the keyboard whenever the user clicks outside the Textfield.
+
 ### Contact me :octocat:
 
 Onlyvatana22@gmail.com
