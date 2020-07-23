@@ -60,7 +60,7 @@ struct FirstScreen: View {
                     .foregroundColor(.white)
                     .font(.system(size: 22))
                     .offset( y: -40)
-                    .keyboardType(.numberPad)
+                    .keyboardType(.decimalPad)
                     .padding(.top)
                 HStack {
                     Text("Select tip")
