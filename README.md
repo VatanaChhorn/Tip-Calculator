@@ -18,7 +18,7 @@ A tip calculator app which is fully capable of helping you to save your time, an
 ### Language and Pods 
 
 - This app is one hundred percent written in Swift ( SwiftUI ) 
-- Using IQKeyboardManagerSwift as an extension pod to allow the user to dismiss the keyboard whenever the user clicks outside the Textfield.
+- Using IQKeyboardManagerSwift as an extension pod to allow the user dismiss the keyboard whenever the user clicks outside the Textfield.
 
 ### Contact me :octocat:
 
