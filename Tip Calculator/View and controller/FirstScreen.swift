@@ -49,11 +49,11 @@ struct FirstScreen: View {
                         }  //: VStack
                         Spacer()
                         Image("inAppLogo")
+                            .resizable()
                             .aspectRatio(contentMode: .fill)
                             .frame(width: 90, height: 90, alignment: .center)
                     }  //:  HStack
                     .padding(.horizontal)
-                    .padding(.top)
                     
                     TextField("Input the amount of money $/៛", text: $textfieldValue)
                         .multilineTextAlignment(.center)

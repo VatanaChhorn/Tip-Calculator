@@ -1,19 +1,8 @@
 {
   "images" : [
     {
-      "filename" : "Inapplogo.png",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "Inapplogo@2x.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "Inapplogo@3x.png",
-      "idiom" : "universal",
-      "scale" : "3x"
+      "filename" : "Brown and Beige Modern Icons Craft Beer Festival Event Logo (2).png",
+      "idiom" : "universal"
     }
   ],
   "info" : {
